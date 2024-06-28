@@ -68,7 +68,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
         "name": "NewSprite",
         "smoothed": true,
         "userAdded": true
@@ -99,6 +99,15 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -423,6 +432,102 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Stone",
+          "persistentUuid": "2c72ce2a-e1a6-4900-8a42-cb4deb80f1cb",
+          "width": 0,
+          "x": 983,
+          "y": 597,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Stone",
+          "persistentUuid": "4dd0b97f-8779-43e8-93ed-ffd0fb2c61ec",
+          "width": 0,
+          "x": 256,
+          "y": 272,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Stone",
+          "persistentUuid": "4e2b5e6f-7a76-4a23-a2e0-2568e5b24112",
+          "width": 0,
+          "x": 599,
+          "y": 483,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Stone",
+          "persistentUuid": "2fa2eb7a-aab6-4c0f-a170-23394b5b239f",
+          "width": 0,
+          "x": 969,
+          "y": 303,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Stone",
+          "persistentUuid": "925ec67d-488b-4465-9fd3-15bb48c455c6",
+          "width": 0,
+          "x": 663,
+          "y": 215,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Stone",
+          "persistentUuid": "2a6be6f8-4e4e-44fe-8a87-968d8f872667",
+          "width": 0,
+          "x": 203,
+          "y": 480,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -452,9 +557,9 @@
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "cellHeight": 20,
-              "cellWidth": 20,
+              "angularMaxSpeed": 250,
+              "cellHeight": 10,
+              "cellWidth": 10,
               "extraBorder": 0,
               "gridOffsetX": 0,
               "gridOffsetY": 0,
@@ -481,14 +586,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 28.5,
-                        "y": 32.5
+                        "x": 28,
+                        "y": 33
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 28.5,
-                        "y": 32.5
+                        "x": 28,
+                        "y": 33
                       },
                       "customCollisionMask": [
                         [
@@ -555,32 +660,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 26.5,
-                        "y": 33
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 26.5,
-                        "y": 33
+                        "x": 34,
+                        "y": 32
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 9
+                            "x": 0,
+                            "y": 8
                           },
                           {
-                            "x": 49,
-                            "y": 9
+                            "x": 63,
+                            "y": 8
                           },
                           {
-                            "x": 49,
-                            "y": 54
+                            "x": 63,
+                            "y": 55
                           },
                           {
-                            "x": 3,
-                            "y": 54
+                            "x": 0,
+                            "y": 55
                           }
                         ]
                       ]
@@ -619,36 +724,104 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite2",
+                      "image": "assets\\NewSprite - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 26.5,
-                        "y": 33
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 26.5,
-                        "y": 33
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 9
+                            "x": 0,
+                            "y": 8
                           },
                           {
-                            "x": 49,
-                            "y": 9
+                            "x": 63,
+                            "y": 8
                           },
                           {
-                            "x": 49,
-                            "y": 54
+                            "x": 63,
+                            "y": 55
                           },
                           {
-                            "x": 3,
-                            "y": 54
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Stone",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "cost": 2,
+              "impassable": true,
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 2
+                          },
+                          {
+                            "x": 59,
+                            "y": 2
+                          },
+                          {
+                            "x": 59,
+                            "y": 61
+                          },
+                          {
+                            "x": 5,
+                            "y": 61
                           }
                         ]
                       ]
@@ -665,6 +838,9 @@
         "children": [
           {
             "objectName": "Head"
+          },
+          {
+            "objectName": "Stone"
           },
           {
             "objectName": "Body"
@@ -813,7 +989,7 @@
                 "Head",
                 "Body",
                 "Head.Segments",
-                "10",
+                "12",
                 "",
                 "",
                 "",
@@ -990,6 +1166,10 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
         },
         {
           "name": "Resizable",
